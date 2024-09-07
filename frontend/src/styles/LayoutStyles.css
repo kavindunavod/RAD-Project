@@ -1,0 +1,67 @@
+.main{
+    padding: 0px;  
+}
+
+.layout{
+    display: flex;
+}
+
+.sidebar{
+    min-height: 100%;
+    width: 300px;
+    background-color: #1aac83;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.body{
+    padding: 20px;
+    min-height: 110vh;
+    box-shadow: inset  5px 0 8px rgba(0, 0, 0, .3);
+    background: #f1f1f1;
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    gap: 10px;
+    background-image: url('../images/backiee-116704.jpg');
+    background-size: cover;
+    
+}
+
+.logo h6{
+    font-size: 1.5rem;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.menu {
+    margin-top: 50px;
+}
+
+.menu-item{
+    margin-top: 30px;
+}
+
+.menu-item a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu-item i{
+    font-size: 1.2rem;
+    margin: 0 15px;
+}
+
+.active {
+    background-color: white;
+    padding: 10px;
+}
+
+.active a, .active i {
+    color: #1aac83; 
+}

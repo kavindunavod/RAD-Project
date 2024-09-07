@@ -1,0 +1,66 @@
+:root {
+    --primary: #1aac83;
+    --error: #e7195a;
+  }
+
+label, input {
+  display: block;
+}
+
+body {
+  background-image: url('../images/backiee-88660.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+}
+  
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form.signup, form.login {
+  max-width: 400px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+form.login {
+  margin: 250px auto;
+}
+
+form.signup{
+  margin: 120px auto;
+}
+
+.link-to-signup{
+  margin-top: 8px;
+}
+
+.link-to-signup :hover{
+  color: red;
+}
